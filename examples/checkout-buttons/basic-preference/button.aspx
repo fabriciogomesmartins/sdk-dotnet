@@ -3,7 +3,7 @@
 <%@ Import Namespace="System.Collections" %>
 
     <%
-        MP mp = new MP ("CLIENT_ID", "CLIENT_SECRET");
+        MP mp = new MP 7977371181851192,1GcgM9nAAI2lEBNygeXktu6jqmcDqQWP
 
         Hashtable preference = mp.createPreference("{\"items\":[{\"title\":\"sdk-dotnet\",\"quantity\":1,\"currency_id\":\"ARS\",\"unit_price\":10.5}]}");
     %>
